@@ -1,0 +1,75 @@
+body {
+  background: black, center fixed;
+  background-image:url(cat.jpg);
+  font-family: sans-serif;
+  color: #212121; }
+
+
+.container {
+  max-width: 900px;
+  background: rgba(20, 20, 20, 1);
+  border: 3px solid rgb(255,30,30);
+  padding: 200px;
+  margin: 5px auto; }
+
+header {
+  background-size: auto;
+  text-align: center;
+  margin-bottom: 50px;
+  width: 100%;
+  height: auto; }
+
+  header h1 {
+    font-size: 3em;
+    color: red;
+    text-align: center;
+    padding: 30px; }
+
+main {
+  padding: 25px; }
+
+h1,
+h2,
+h3 {
+    text-align: center;
+  color: red; }
+
+
+p {
+  padding-left: 40px;
+  font-size: 1.4em; 
+  color: blue;
+  text-align: center;
+
+}
+
+
+nav {
+  text-align: center;
+  padding: 20px; }
+
+  nav a {
+    font-size: 3em;
+    color: red;
+    font-weight: 200;
+    background: grey;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px 10px;
+    border-radius: 25px; }
+
+  nav a:hover {
+    background: black;
+    color: lawngreen; }
+  img {
+   display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 150px;
+      width: 100%;
+    
+}
+#tony {
+    margin-bottom: 0;
+    
+}

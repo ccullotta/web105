@@ -1,1 +1,115 @@
+<!DOCTYPE <!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>lists</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+    
+    
+    body {
+            background-color: #287908;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: #3391dd;
+        }
 
+        dt {
+            font-weight: 700;
+            font-size: 16pt;
+            color: rgb(128, 48, 10);
+            line-height: 3;
+        }
+
+        
+        ul li {
+            list-style-type:disc;
+        }
+
+        ul  li  ul li {
+            list-style-type: square;
+        }
+
+        .container {
+            min-height: 100px;
+            max-width: 960px;
+            background-color: #3e662e;;
+            border-radius: 20px;
+            border: 6px solid black;
+            margin: 15px auto;
+            padding: 5px 10px 10px 15px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #cf2525;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <h2>favorite musicians</h2>
+<ul>
+    <li> The Beatles</li>
+    <li> James Blunt
+    <ul>
+        <li> the afterlove </li>
+        <li> moonlanding</li>
+        <li> some kind of trouble</li>
+    </ul>
+    <li> Mike Posner
+        <ul>
+        <li> please dont go</li>
+        <li> cooler than me</li>
+    </ul>
+    </li>
+</li>
+</ul>
+
+
+</div>
+<div class="container">
+<h2> Actors/Movies</h2>
+<ol type="A">
+    <li> Seth Rogen
+        <ol type="a">
+            <li>This is the End</li>
+            <li> Superbad</li>
+        </ol>
+    </li>
+    <li> James Franco
+        <ol type="a">
+            <li>This is the End</li>
+            <li> 127 Hours</li>
+            <li>Spider-Man</li>
+        </ol>
+    </li>
+</ol>
+
+</div>
+<div class="container">
+<h2> Web dev</h2>
+<dl>
+<dt> 
+In-line styles
+</dt>
+<dd> allows you to modify the look of a line of code, specificly for that individual line in a simple way</dd>
+<dt> classes </dt>
+<dd>allow you to modify the look of a general class of codes, allowing you to easily design the entire website</dd>
+<dt> divs</dt>
+<dd> allow you to artificially seperate lines of code for easier manipulation with CSS</dd>
+<dt> HTML</dt>
+<dd>the code im writing this in</dd>
+<dt> CSS</dt>
+<dd> stands for cascading style sheets, and describes the inherited description of all html code, essentially the way a website is described to look like more then basic essential text</dd>
+
+
+</dl>
+
+
+</div>
+</body>
+</html>

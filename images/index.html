@@ -1,1 +1,100 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Images</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <style>
+        body {
+            background: #000000;
+            color: #ffffff;
+            background-image: url(ladder.png);
+            background-repeat: repeat-y;
+            background-position: left;
+        }
+        
+        .container {
+            max-width: 960px;
+            margin: 15px auto;
+            padding: 15px;
+            text-align: center;
+        }
+        
+
+        .material-icons {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+        }
+        
+        #back1 {
+            background-image: url('square.png');
+            background-repeat: no-repeat;
+            background-position: left;
+            min-height: 250px;
+        }
+        
+        #back2 {
+            background-image: url('rope.png');
+            background-repeat: repeat-x;
+            min-height: 250px;
+            color: #ff0000;
+        }
+        img{
+            max-width: 500px;
+            height: auto;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1>images</h1>
+    </header>
+    <div class="container">
+        <h2>Icon examples</h2>
+        <p style="text-align: center;"></p>
+        <i class="material-icons">battery_unknown</i> &nbsp;&nbsp;&nbsp;
+        <i class="material-icons">help</i> &nbsp;&nbsp;&nbsp;
+        <i class="material-icons">label_outline</i> &nbsp;&nbsp;&nbsp;
+        <i class="material-icons">playlist_add</i> &nbsp;&nbsp;&nbsp;    
+        <i class="material-icons">open_in_new</i> &nbsp;&nbsp;&nbsp;
+
+    </div>
+    <div class="container" id="back1">
+        <h2>Image types</h2>
+        <img src="dash.gif" alt="gif image">
+        <img src="download.png" alt="star image in png">
+        <img src="apple.jpg" alt="apple image in jpg">
+
+    </div>
+
+    <div class="container" id="back2">
+        <h2>Background Images 2</h2>
+    </div>
+
+
+    <div class="container" style="text-align:center">
+        <h2> floats</h2>
+            <img src="circle.png" alt="circle" style="float:left;">
+            <p style="clear :both"></p>
+            <img src="penguin.png" alt="circle" style="float:right;">
+            <p style="clear :both"></p>
+            <img src="pizza.png" alt="circle" style="float:none;">
+            <p style="clear :both"></p>
+    </div>
+ 
+    <div class="container">
+        <h2>responsive Images</h2>
+        <img src="smile.png" alt="star" style="width: 80%; height: auto;">
+    </div>
+
+</body>
+
+</html>
